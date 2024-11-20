@@ -29,3 +29,19 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 
 2. **Linear Regression Model**:
    - Developed as a comparison to the logistic regression model for predicting battery drain and examining model performance.
+  
+### **Machine Learning Anaylsis**
+
+The logistic regression model includes several measurments from the function metrics.
+
+Classification Report:
+Precision:
+Recall:
+f1-score:
+Support:
+
+Regression Evaluation Metrics:
+Mean Absolute Error (MAE): 174.55026780066294
+Mean Squared Error (MSE): 44964.39113330613
+Root Mean Squared Error (RMSE): 212.04808684189098
+R-squared (R²): 0.9328915642805237
