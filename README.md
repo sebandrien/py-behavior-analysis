@@ -1,6 +1,7 @@
 # **Behavioral Analysis of User Phone Usage Metrics (ML)**
 
 Created in Google Colab.
+
 **Dataset Source**: [Kaggle - Mobile Device Usage and User Behavior Dataset](https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset)
 
 ### **Overview**
@@ -41,7 +42,11 @@ f1-score:
 Support:
 
 Regression Evaluation Metrics:
+
 Mean Absolute Error (MAE): 174.55026780066294
+
 Mean Squared Error (MSE): 44964.39113330613
+
 Root Mean Squared Error (RMSE): 212.04808684189098
+
 R-squared (R²): 0.9328915642805237
