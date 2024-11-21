@@ -23,6 +23,41 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
   - **Gender**: Gender of the user (Male or Female).<br>
   - **User Behavior Class**: Classification of user behavior based on usage patterns from Light (1) to Extreme (5) usage.
 
+  The data was divided into four clusters, each representing a different level of device usage. The clusters are color-coded in the visualizations as follows:
+
+- **Cluster 0**: Light Users (Light Purple)
+- **Cluster 1**: Moderate Users (Pink)
+- **Cluster 2**: Heavy Users (Darker Purple)
+- **Cluster 3**: Power Users (Darkest Purple)
+
+### **Cluster 0 - Light Users**
+- **App Usage Time**: < 200 minutes/day
+- **Battery Drain**: < 500 mAh/day
+- **Screen On Time**: < 2 hours/day
+- **Data Usage**: < 500 MB/day
+- **Characteristics**: Light users who engage with their devices minimally, likely for simple tasks like messaging or checking emails.
+
+### **Cluster 1 - Moderate Users**
+- **App Usage Time**: 200-400 minutes/day
+- **Battery Drain**: 500-1000 mAh/day
+- **Screen On Time**: 4-6 hours/day
+- **Data Usage**: 500 MB - 1 GB/day
+- **Characteristics**: Users who engage in moderate device use, likely for social media, browsing, and casual streaming.
+
+### **Cluster 2 - Heavy Users**
+- **App Usage Time**: 400-600 minutes/day
+- **Battery Drain**: 1000-2000 mAh/day
+- **Screen On Time**: 6-10 hours/day
+- **Data Usage**: 1 GB - 2 GB/day
+- **Characteristics**: Heavy users who engage in activities such as frequent video consumption, online gaming, or multitasking.
+
+### **Cluster 3 - Power Users**
+- **App Usage Time**: > 600 minutes/day
+- **Battery Drain**: > 2000 mAh/day
+- **Screen On Time**: > 10 hours/day
+- **Data Usage**: > 2 GB/day
+- **Characteristics**: Power users with extreme reliance on their devices, likely for work, streaming, or gaming. They exhibit the highest battery drain and data usage.
+
 ### **Analysis and Models**
 1. **Logistic Regression Model**:
    - Predicts **Battery Drain (mAh/day)**.
@@ -84,6 +119,10 @@ Regression Evaluation Metrics:
 Mean Absolute Error (MAE): 174.55026780066294
 
 Mean Squared Error (MSE): 44964.39113330613
+
+
+### **Machine Learning Anaylsis**
+
 
 Root Mean Squared Error (RMSE): 212.04808684189098
 
