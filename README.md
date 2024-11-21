@@ -32,23 +32,18 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 - **Data Usage**: < 500 MB/day
 - **Characteristics**: Light users who engage with their devices minimally, likely for simple tasks like messaging or checking emails.
 - **Cluster 1**: Moderate Users (Pink)
+- - **App Usage Time**: 200-400 minutes/day
+- - **Battery Drain**: 500-1000 mAh/day
+- - **Screen On Time**: 4-6 hours/day
+- - **Data Usage**: 500 MB - 1 GB/day
+- - **Characteristics**: Users who engage in moderate device use, likely for social media, browsing, and casual streaming.
 - **Cluster 2**: Heavy Users (Darker Purple)
+- - **App Usage Time**: 400-600 minutes/day
+- - **Battery Drain**: 1000-2000 mAh/day
+- - **Screen On Time**: 6-10 hours/day
+- - **Data Usage**: 1 GB - 2 GB/day
+- - **Characteristics**: Heavy users who engage in activities such as frequent video consumption, online gaming, or multitasking.
 - **Cluster 3**: Power Users (Darkest Purple)
-
-
-### **Cluster 1 - Moderate Users**
-- **App Usage Time**: 200-400 minutes/day
-- **Battery Drain**: 500-1000 mAh/day
-- **Screen On Time**: 4-6 hours/day
-- **Data Usage**: 500 MB - 1 GB/day
-- **Characteristics**: Users who engage in moderate device use, likely for social media, browsing, and casual streaming.
-
-### **Cluster 2 - Heavy Users**
-- **App Usage Time**: 400-600 minutes/day
-- **Battery Drain**: 1000-2000 mAh/day
-- **Screen On Time**: 6-10 hours/day
-- **Data Usage**: 1 GB - 2 GB/day
-- **Characteristics**: Heavy users who engage in activities such as frequent video consumption, online gaming, or multitasking.
 
 ### **Cluster 3 - Power Users**
 - **App Usage Time**: > 600 minutes/day
