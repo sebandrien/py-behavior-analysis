@@ -33,25 +33,25 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
   
 
 A histogram is done to visualize distribution of ages.
-![JupyterLab](images/graph_1.png)
+![JupyterLab](images/graph_01.png)
 
 A scatterplot is done to see if there is any correrlation between age and number of apps installed.
-![JupyterLab](images/graph_2.png)
+![JupyterLab](images/graph_02.png)
 
 A boxplot is used to visualzie the distributuion between genders.
-![JupyterLab](images/graph_3.png)
+![JupyterLab](images/graph_03.png)
 
 A correlation matrix is done to visuzlie realtionships between data points.
-![JupyterLab](images/graph_4.png)
+![JupyterLab](images/graph_04.png)
 
 This scatter plot visualizes the relationship between age and app usage.
-![JupyterLab](images/graph_5.png)
+![JupyterLab](images/graph_05.png)
 
 This scatter plot visualizes the relationship between age and data usage.
-![JupyterLab](images/graph_6.png)
+![JupyterLab](images/graph_06.png)
 
 Distribution of device models are done to validate data set.
-![JupyterLab](images/graph_7.png)
+![JupyterLab](images/graph_07.png)
 
   
 ### **Machine Learning Anaylsis**
