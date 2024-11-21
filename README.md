@@ -31,6 +31,29 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 2. **Linear Regression Model**:
    - Developed as a comparison to the logistic regression model for predicting battery drain and examining model performance.
   
+
+A histogram is done to visualize distribution of ages.
+![JupyterLab](images/graph_1.png)
+
+A scatterplot is done to see if there is any correrlation between age and number of apps installed.
+![JupyterLab](images/graph_2.png)
+
+A boxplot is used to visualzie the distributuion between genders.
+![JupyterLab](images/graph_3.png)
+
+A correlation matrix is done to visuzlie realtionships between data points.
+![JupyterLab](images/graph_4.png)
+
+This scatter plot visualizes the relationship between age and app usage.
+![JupyterLab](images/graph_5.png)
+
+This scatter plot visualizes the relationship between age and data usage.
+![JupyterLab](images/graph_6.png)
+
+Distribution of device models are done to validate data set.
+![JupyterLab](images/graph_7.png)
+
+  
 ### **Machine Learning Anaylsis**
 
 The logistic regression model includes several measurments from the function metrics.
