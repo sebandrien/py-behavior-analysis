@@ -53,6 +53,21 @@ This scatter plot visualizes the relationship between age and data usage.
 Distribution of device models are done to validate data set.
 ![JupyterLab](images/graph_07.png)
 
+Distribution of device models are done to validate data set.
+![JupyterLab](images/graph_07.png)
+
+
+Distribution of device models are done to validate data set.
+![JupyterLab](images/graph_07.png)
+
+
+Clear categorizational differnces can be observed.
+![JupyterLab](images/graph_10.png)
+
+
+A predicted vs actual battery drain graph is created to visualize if the predicted battery drain is accurate.
+![JupyterLab](images/graph_11.png)
+
   
 ### **Machine Learning Anaylsis**
 
