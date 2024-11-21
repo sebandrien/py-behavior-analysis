@@ -26,16 +26,15 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
   The data was divided into four clusters, each representing a different level of device usage. The clusters are color-coded in the visualizations as follows:
 
 - **Cluster 0**: Light Users (Light Purple)
-- **Cluster 1**: Moderate Users (Pink)
-- **Cluster 2**: Heavy Users (Darker Purple)
-- **Cluster 3**: Power Users (Darkest Purple)
-
-### **Cluster 0 - Light Users**
-- **App Usage Time**: < 200 minutes/day
+- - **App Usage Time**: < 200 minutes/day
 - **Battery Drain**: < 500 mAh/day
 - **Screen On Time**: < 2 hours/day
 - **Data Usage**: < 500 MB/day
 - **Characteristics**: Light users who engage with their devices minimally, likely for simple tasks like messaging or checking emails.
+- **Cluster 1**: Moderate Users (Pink)
+- **Cluster 2**: Heavy Users (Darker Purple)
+- **Cluster 3**: Power Users (Darkest Purple)
+
 
 ### **Cluster 1 - Moderate Users**
 - **App Usage Time**: 200-400 minutes/day
