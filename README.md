@@ -58,7 +58,7 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 2. **Linear Regression Model**:
    - Developed as a comparison to the logistic regression model for predicting battery drain and examining model performance.
   
-A histogram is done to visualize distribution of ages.
+A histogram is done to visualize distribution of ages which shows equal distribution.
 ![JupyterLab](images/graph_01.png)
 
 A scatterplot is done to see if there is any correrlation between age and number of apps installed. No correlation is visualized.
