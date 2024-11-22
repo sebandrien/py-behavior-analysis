@@ -44,13 +44,11 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 - - **Data Usage**: 1 GB - 2 GB/day
 - - **Characteristics**: Heavy users who engage in activities such as frequent video consumption, online gaming, or multitasking.
 - **Cluster 3**: Power Users (Darkest Purple)
-
-### **Cluster 3 - Power Users**
-- **App Usage Time**: > 600 minutes/day
-- **Battery Drain**: > 2000 mAh/day
-- **Screen On Time**: > 10 hours/day
-- **Data Usage**: > 2 GB/day
-- **Characteristics**: Power users with extreme reliance on their devices, likely for work, streaming, or gaming. They exhibit the highest battery drain and data usage.
+- - **App Usage Time**: > 600 minutes/day
+- - **Battery Drain**: > 2000 mAh/day
+- - **Screen On Time**: > 10 hours/day
+- - **Data Usage**: > 2 GB/day
+- - **Characteristics**: Power users with extreme reliance on their devices, likely for work, streaming, or gaming. They exhibit the highest battery drain and data usage.
 
 ### **Analysis and Models**
 1. **Logistic Regression Model**:
@@ -60,7 +58,6 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 2. **Linear Regression Model**:
    - Developed as a comparison to the logistic regression model for predicting battery drain and examining model performance.
   
-
 A histogram is done to visualize distribution of ages.
 ![JupyterLab](images/graph_01.png)
 
