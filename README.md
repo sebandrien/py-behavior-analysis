@@ -64,7 +64,7 @@ A histogram is done to visualize distribution of ages.
 A scatterplot is done to see if there is any correrlation between age and number of apps installed.
 ![JupyterLab](images/graph_02.png)
 
-A boxplot is used to visualzie the distributuion between genders.
+A boxplot is used to visualzie the distributuion between genders which shows near equal distribution.
 ![JupyterLab](images/graph_03.png)
 
 A correlation matrix is done to visuzlie realtionships between data points.
