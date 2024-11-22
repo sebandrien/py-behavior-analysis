@@ -83,7 +83,7 @@ Distribution of device models are done to validate data set.
 ![JupyterLab](images/graph_07.png)
 
 
-Distribution of device models are done to validate data set.
+Distribution of device models are done to validate data set. Near equal distribution is seen.
 ![JupyterLab](images/graph_07.png)
 
 
