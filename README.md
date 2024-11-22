@@ -61,7 +61,7 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 A histogram is done to visualize distribution of ages.
 ![JupyterLab](images/graph_01.png)
 
-A scatterplot is done to see if there is any correrlation between age and number of apps installed.
+A scatterplot is done to see if there is any correrlation between age and number of apps installed. No correlation is visualized.
 ![JupyterLab](images/graph_02.png)
 
 A boxplot is used to visualzie the distributuion between genders which shows near equal distribution.
