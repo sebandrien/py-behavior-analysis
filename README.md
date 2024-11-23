@@ -79,10 +79,10 @@ This scatter plot visualizes the relationship between age and data usage. Data u
 Distribution of device models are done to validate data set. A near equal distribution is visualized.
 ![JupyterLab](images/graph_07.png)
 
-Distribution of device models are done to validate data set.
+A histogram is done to show app usage time. App usage time is right-skewed.
 ![JupyterLab](images/graph_08.png)
 
-A box plot is done to visualize the user behavior classes and app usage time a day.
+A box plot is done to visualize the user behavior classes.
 ![JupyterLab](images/graph_09.png)
 
 Clear categorizational differnces can be observed.
@@ -96,7 +96,6 @@ A predicted vs actual battery drain graph is created to visualize if the predict
 The logistic regression model includes several measurments from the function metrics.
 
 ###  Classification Report:
-
 
 **Precision:** 1.00
 
