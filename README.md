@@ -95,17 +95,18 @@ A predicted vs actual battery drain graph is created to visualize if the predict
 
 The logistic regression model includes several measurments from the function metrics.
 
-Classification Report:
+###  Classification Report:
 
-Precision:
 
-**Recall:**
+**Precision:** 1.00
 
-**F1-score:**
+**Recall:** 1.00
 
-**Support:**
+**F1-score:** 1.00
 
-Regression Evaluation Metrics:
+**Support:** 110
+
+### Regression Evaluation Metrics:
 
 **Mean Absolute Error (MAE):** 174.550
 
