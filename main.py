@@ -20,7 +20,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-data = pd.read_excel('user_behavior_dataset.xlsx')
+data = pd.read_excel('user_behavior_dataset.csv')
 
 # Display the first few rows
 print(data.head())
