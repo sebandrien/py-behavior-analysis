@@ -114,3 +114,5 @@ The logistic regression model includes several measurments from the function met
 **Root Mean Squared Error (RMSE):** 212.048
 
 **R-squared (R²):** 0.932
+
+The regression model’s performance is highly commendable, with an R-squared (R²) value of 0.932, indicating that the model explains 93.2% of the variance in the dependent variable. This level of accuracy demonstrates that the linear regression model is well-suited for the data and can reliably predict battery drain based on the given independent variables. The R² score effectively highlights the model's overall performance, while the Mean Absolute Error (MAE) of 174.550 and Root Mean Squared Error (RMSE) of 212.048 are within an acceptable range.
