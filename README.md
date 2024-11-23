@@ -80,11 +80,11 @@ Distribution of device models are done to validate data set. A near equal distri
 ![JupyterLab](images/graph_07.png)
 
 Distribution of device models are done to validate data set.
-![JupyterLab](images/graph_07.png)
+![JupyterLab](images/graph_08.png)
 
 
 Distribution of device models are done to validate data set. Near equal distribution is seen.
-![JupyterLab](images/graph_07.png)
+![JupyterLab](images/graph_09.png)
 
 
 Clear categorizational differnces can be observed.
