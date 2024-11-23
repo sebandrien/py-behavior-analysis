@@ -96,10 +96,14 @@ A predicted vs actual battery drain graph is created to visualize if the predict
 The logistic regression model includes several measurments from the function metrics.
 
 Classification Report:
+
 Precision:
-Recall:
-f1-score:
-Support:
+
+**Recall:**
+
+**F1-score:**
+
+**Support:**
 
 Regression Evaluation Metrics:
 
