@@ -67,7 +67,7 @@ A scatterplot is done to see if there is any correrlation between age and number
 A boxplot is used to visualzie the distributuion between genders which shows near equal distribution.
 ![JupyterLab](images/graph_03.png)
 
-A correlation matrix is done to visuzlie realtionships between data points.
+A correlation matrix is made to better understand the relationship between variables. Strong positive correlations are evident between variables like App Usage Time, Screen On Time, Battery Drain, Number of Apps Installed, and Data Usage, with coefficients close to or above 0.95. This suggests that increased app usage time is highly associated with increased screen-on time, battery consumption, and data usage, as well as a higher number of installed apps. Conversely, the variable Age shows negligible correlation with most other variables, implying that mobile usage patterns are not significantly dependent on the user's age. Lastly, the User Behavior Class is strongly correlated (above 0.97) with all usage-related metrics, highlighting its potential reliance on these factors for classification. 
 ![JupyterLab](images/graph_04.png)
 
 This scatter plot visualizes the relationship between age and app usage.
