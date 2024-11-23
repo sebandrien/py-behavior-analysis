@@ -82,19 +82,15 @@ Distribution of device models are done to validate data set. A near equal distri
 Distribution of device models are done to validate data set.
 ![JupyterLab](images/graph_08.png)
 
-
 Distribution of device models are done to validate data set. Near equal distribution is seen.
 ![JupyterLab](images/graph_09.png)
-
 
 Clear categorizational differnces can be observed.
 ![JupyterLab](images/graph_10.png)
 
-
 A predicted vs actual battery drain graph is created to visualize if the predicted battery drain is accurate.
 ![JupyterLab](images/graph_11.png)
 
-  
 ### **Machine Learning Anaylsis**
 
 The logistic regression model includes several measurments from the function metrics.
@@ -108,13 +104,10 @@ Support:
 Regression Evaluation Metrics:
 
 Mean Absolute Error (MAE): 174.55026780066294
-
 Mean Squared Error (MSE): 44964.39113330613
 
 
 ### **Machine Learning Anaylsis**
 
-
 Root Mean Squared Error (RMSE): 212.04808684189098
-
 R-squared (R²): 0.9328915642805237
