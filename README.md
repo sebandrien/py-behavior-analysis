@@ -104,10 +104,12 @@ Support:
 Regression Evaluation Metrics:
 
 Mean Absolute Error (MAE): 174.55026780066294
+
 Mean Squared Error (MSE): 44964.39113330613
 
 
 ### **Machine Learning Anaylsis**
 
 Root Mean Squared Error (RMSE): 212.04808684189098
+
 R-squared (R²): 0.9328915642805237
