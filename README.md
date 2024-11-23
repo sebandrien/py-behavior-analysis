@@ -103,10 +103,10 @@ Support:
 
 Regression Evaluation Metrics:
 
-Mean Absolute Error (MAE): 174.550
+**Mean Absolute Error (MAE):** 174.550
 
-Mean Squared Error (MSE): 44964.391
+**Mean Squared Error (MSE):** 44964.391
 
-Root Mean Squared Error (RMSE): 212.048
+**Root Mean Squared Error (RMSE):** 212.048
 
-R-squared (R²): 0.932
+**R-squared (R²):** 0.932
