@@ -56,13 +56,60 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
   - **Characteristics**: Power users with extreme reliance on their devices, likely for work, streaming, or gaming. They exhibit the highest battery drain and data usage.
 
 ### **Analysis and Models**
-1. **Logistic Regression Model**:
-   - Predicts **Battery Drain (mAh/day)**.
-   - Trained using **App Usage Time (min/day)**, **Screen On Time (hours/day)**, and **Data Usage (MB/day)**.
 
-2. **Linear Regression Model**:
-   - Developed as a comparison to the logistic regression model for predicting battery drain and examining model performance.
-  
+This section outlines the implementation and insights derived from the two primary models: Logistic Regression and Linear Regression. These models were designed to explore and predict user behavior and device metrics effectively.
+
+---
+
+#### **1. Logistic Regression Model**
+The Logistic Regression model was employed to classify user behavior into distinct categories based on their phone usage patterns. The primary goal was to predict the **User Behavior Class** (ranging from Light to Extreme usage) using a combination of key features: 
+
+- **App Usage Time (min/day)**
+- **Screen On Time (hours/day)**
+- **Data Usage (MB/day)**
+
+**Steps for Implementation:**
+- The dataset was split into training and testing sets using an 80-20 ratio with the **train_test_split** function.
+- Data was standardized using **StandardScaler** to normalize features for better model performance.
+- A Logistic Regression model was trained using the scaled data, with a maximum iteration limit of 500 to ensure convergence.
+- The model was evaluated on the testing set, yielding the following metrics:
+  - **Precision, Recall, and F1-Score**: Demonstrated perfect classification performance across all classes.
+  - **Confusion Matrix**: Showed no misclassifications, underscoring the model's reliability.
+
+This model's results highlight its effectiveness in identifying user behavior classes based on a combination of usage metrics.
+
+---
+
+#### **2. Linear Regression Model**
+The Linear Regression model was developed to predict **Battery Drain (mAh/day)**, a continuous variable influenced by several usage metrics. This model served as a complementary analysis to understand the relationships between battery consumption and other features.
+
+**Steps for Implementation:**
+- The features used for training were:
+  - **App Usage Time (min/day)**
+  - **Screen On Time (hours/day)**
+  - **Data Usage (MB/day)**
+- The model was trained on the dataset without feature scaling, as linear regression is less sensitive to scaling compared to logistic regression.
+- Predictions for battery drain were generated and stored in a new column, **Battery Prediction**.
+
+**Performance Evaluation:**
+- The model's fit was assessed using key regression metrics:
+  - **R² (R-squared):** Achieved an excellent score of 0.932, indicating that the model explains 93.2% of the variance in battery drain.
+  - **Mean Absolute Error (MAE):** 174.550, showing that the average prediction error is within a reasonable range.
+  - **Root Mean Squared Error (RMSE):** 212.048, further supporting the model's accuracy in predicting battery consumption.
+
+**Insights:**
+- The high R² value demonstrates that battery consumption is strongly influenced by app usage time, screen-on time, and data usage.
+- This model offers practical applications, such as estimating battery drain for optimizing device performance or providing user insights on energy consumption.
+
+---
+
+### **Combined Analysis**
+Both models complement each other in understanding mobile device usage patterns:
+- The Logistic Regression model provides categorical insights, effectively classifying user behavior into meaningful segments.
+- The Linear Regression model quantifies the continuous impact of usage metrics, offering precise predictions for battery consumption.
+
+These models together create a comprehensive framework for analyzing and predicting mobile device usage patterns and their impact on user behavior and battery performance. 
+
 A histogram is done to visualize distribution of ages which shows equal distribution.
 ![JupyterLab](images/graph_01.png)
 
