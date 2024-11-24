@@ -116,3 +116,9 @@ The logistic regression model includes several measurments from the function met
 **R-squared (R²):** 0.932
 
 The regression model’s performance is highly commendable, with an R-squared (R²) value of 0.932, indicating that the model explains 93.2% of the variance in the dependent variable. This level of accuracy demonstrates that the linear regression model is well-suited for the data and can reliably predict battery drain based on the given independent variables. The R² score effectively highlights the model's overall performance, while the Mean Absolute Error (MAE) of 174.550 and Root Mean Squared Error (RMSE) of 212.048 are within an acceptable range.
+
+### Conclusion:
+
+This project successfully conducted a behavioral analysis of user phone usage metrics and demonstrated the effectiveness of machine learning models in predicting user behavior. App usage time, screen-on time, battery drain, and data consumption exhibit high interdependence, emphasizing their role in understanding user behavior. Age has a negligible correlation with other usage metrics, highlighting the universality of mobile behavior patterns across age groups. Clear distinctions among user behavior classes reinforce the validity of the categorization and provide a robust framework for behavioral segmentation.
+
+Machine learning models performed exceptionally well. The Logistic Regression Model achieved perfect precision, recall, and F1 scores, showcasing its robustness in classification tasks. The Linear Regression Model achieved an R² value of 0.932, indicating high predictive accuracy for battery drain. Metrics like MAE and RMSE were within acceptable ranges, underscoring the model’s reliability.
