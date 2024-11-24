@@ -59,9 +59,9 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
 
 ### **Analysis and Models**
 
-This section outlines the implementation and insights derived from the two primary models: Logistic Regression and Linear Regression. These models were designed to explore and predict user behavior and device metrics effectively.
-
 ---
+
+This section outlines the implementation and insights derived from the two primary models: Logistic Regression and Linear Regression. These models were designed to explore and predict user behavior and device metrics effectively.
 
 #### **1. Logistic Regression Model**
 The Logistic Regression model was employed to classify user behavior into distinct categories based on their phone usage patterns. The primary goal was to predict the **User Behavior Class** (ranging from Light to Extreme usage) using a combination of key features: 
