@@ -1,5 +1,4 @@
-# **Behavioral Analysis of User Phone Usage Metrics (ML)**\
----
+# **Behavioral Analysis of User Phone Usage Metrics (ML)**
 
 Created in Google Colab.
 
