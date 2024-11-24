@@ -101,14 +101,16 @@ The Linear Regression model was developed to predict **Battery Drain (mAh/day)**
 - The high R² value demonstrates that battery consumption is strongly influenced by app usage time, screen-on time, and data usage.
 - This model offers practical applications, such as estimating battery drain for optimizing device performance or providing user insights on energy consumption.
 
----
-
 ### **Combined Analysis**
 Both models complement each other in understanding mobile device usage patterns:
 - The Logistic Regression model provides categorical insights, effectively classifying user behavior into meaningful segments.
 - The Linear Regression model quantifies the continuous impact of usage metrics, offering precise predictions for battery consumption.
 
 These models together create a comprehensive framework for analyzing and predicting mobile device usage patterns and their impact on user behavior and battery performance. 
+
+### **Graphing**
+
+---
 
 A histogram is done to visualize distribution of ages which shows equal distribution.
 ![JupyterLab](images/graph_01.png)
