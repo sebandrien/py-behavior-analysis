@@ -80,8 +80,6 @@ The Logistic Regression model was employed to classify user behavior into distin
 
 This model's results highlight its effectiveness in identifying user behavior classes based on a combination of usage metrics.
 
----
-
 #### **2. Linear Regression Model**
 The Linear Regression model was developed to predict **Battery Drain (mAh/day)**, a continuous variable influenced by several usage metrics. This model served as a complementary analysis to understand the relationships between battery consumption and other features.
 
