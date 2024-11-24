@@ -23,6 +23,8 @@ This project conducts a behavioral analysis on user phone usage metrics. The obj
   - **Gender**: Gender of the user (Male or Female).<br>
   - **User Behavior Class**: Classification of user behavior based on usage patterns from Light (1) to Extreme (5) usage.
 
+  A balanced sample was used.
+
   The data was divided into four clusters, each representing a different level of device usage. The clusters are color-coded in the visualizations as follows:
 
 - **Cluster 0**: Light Users (Light Purple)
