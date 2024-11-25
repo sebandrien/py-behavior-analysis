@@ -136,7 +136,7 @@ A histogram is done to show app usage time. App usage time is right-skewed.
 A box plot is done to visualize the user behavior classes.
 ![JupyterLab](images/graph_09.png)
 
-Clear categorizational differnces can be observed.
+A pair pot is used to better visualize four variables in a dataset, segmented by clusters.
 ![JupyterLab](images/graph_10.png)
 
 A predicted vs actual battery drain graph is created to visualize if the predicted battery drain is accurate.
